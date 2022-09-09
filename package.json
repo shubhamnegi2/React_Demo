@@ -1,4 +1,6 @@
 {
+  "name":"ReactDemo",
+  "hompage":"https://shubhamnegi2.github.io/React_Demo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
