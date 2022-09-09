@@ -1,0 +1,53 @@
+header .logo img {
+  max-width: 100%;
+}
+header .searchBox {
+  display: flex;
+  border: 1px solid #eee;
+}
+header .searchBox input {
+  width: 90%;
+  border: 1px solid #000;
+}
+header .searchBox .searchBtn {
+  height: 35px;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+}
+header .headerLeftside {
+  display: flex;
+  justify-content: space-around;
+}
+header .headerLeftside .uploadVideo {
+  position: relative;
+}
+header .headerLeftside .uploadVideo .fa-video {
+  font-size: 26px;
+}
+header .headerLeftside .uploadVideo .fa-plus {
+  position: absolute;
+  left: 3px;
+  top: 5px;
+  color: #fff;
+}
+header .headerLeftside .notification .fa-envelope {
+  font-size: 26px;
+}
+header .headerLeftside .userProfile {
+  padding: 14px;
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+}
+header .headerLeftside .userProfile .usernameFirstLatter {
+  position: absolute;
+  left: 50%;
+  top: -12px;
+  transform: translate(-50%);
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}/*# sourceMappingURL=header.css.map */

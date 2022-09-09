@@ -1,0 +1,60 @@
+header {
+    .logo {
+        img{
+            max-width: 100%;
+        }
+    }
+    .searchBox{
+        display: flex;
+        border: 1px solid #eee;
+        
+        input{
+            width: 90%;
+            border: 1px solid #000;
+        }
+        .searchBtn{
+            height: 35px;
+            width: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #000;
+        }
+    }
+    .headerLeftside{
+        display: flex;
+        justify-content: space-around;
+        .uploadVideo{
+            position: relative;
+            .fa-video{
+                font-size: 26px;
+            }
+            .fa-plus{
+                position: absolute;
+                left: 3px;
+                top: 5px;
+                color: #fff;
+            }
+        }
+        .notification{
+            .fa-envelope{
+                font-size: 26px;
+            }
+        }
+        .userProfile{
+            padding: 14px ;
+            border-radius: 50%;
+            background-color: red;
+            position: relative;
+            .usernameFirstLatter{
+                position: absolute;
+                left: 50%;
+                top: -12px;
+                transform: translate(-50%);
+                font-size: 30px;
+                font-weight: bold;
+                color: #fff;
+            }
+        }
+    }
+}
